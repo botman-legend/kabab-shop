@@ -1,0 +1,8 @@
+authtoken: 2k1BanMZqBJsd19BtKoIalRmU16_5vu9fv4rCFbtfWbNubqG8
+tunnels:
+  default:
+    proto: http
+    addr: 3000
+  fastapi:
+    proto: http
+    addr: 8000

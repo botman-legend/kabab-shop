@@ -1,0 +1,42 @@
+{
+  "name": "my-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "ngrok": "ngrok http 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/mongodb-adapter": "^3.4.2",
+    "@react-google-maps/api": "^2.19.3",
+    "axios": "^1.7.5",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5",
+    "leaflet": "^1.9.4",
+    "leaflet-control-geocoder": "^2.4.0",
+    "leaflet-defaulticon-compatibility": "^0.1.2",
+    "leaflet-routing-machine": "^3.2.12",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.5.3",
+    "next": "^14.2.14",
+    "next-auth": "^4.24.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-markdown": "^10.1.0",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.8",
+    "autoprefixer": "^10.4.19",
+    "ngrok": "^5.0.0-beta.2",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.8.3"
+  }
+}
